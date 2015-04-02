@@ -46,7 +46,7 @@ rfun knitr::knit input=$rmd
 ```
 
 ## Note:
-This was originally build for `flowr` and is the derivativeitive of this file:
+This was originally build for `flowr` and is the derivative of this file:
 [https://github.com/sahilseth/flowr/blob/master/inst/scripts/flowr](https://github.com/sahilseth/flowr/blob/master/inst/scripts/flowr)
 
 I plan to keep these two in sync in case we find any bugs. In fact they are just alias on my systems.
