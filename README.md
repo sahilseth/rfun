@@ -27,21 +27,20 @@ rfun rnorm n=100
 
 
 ## Using a non-base package
-### Let us get a example Rmd file
-```
-## get path to an example Rmd file. Assuming we have knitr installed.
-rfun system.file package=knitr ...=examples/knitr-minimal.Rmd
-## ------- save the filename in a BASH variable rmd
-rmd=$(rfun system.file package=knitr ...=examples/knitr-minimal.Rmd)
-echo $rmd
-```
-
 ### Loading a package automatically by `::`
 ```
 ## load help file for knitr
 rfun knitr::knit
 ## OR use
 rfun knitr::knit -h
+```
+
+### Let process Rmd file
+```
+## get path to an example Rmd file. Assuming we have knitr installed.
+## ------- save the filename in a BASH variable rmd
+rmd=$(rfun system.file package=knitr ...=examples/knitr-minimal.Rmd)
+echo $rmd
 ## knit this awesome example !
 rfun knitr::knit input=$rmd
 ```
