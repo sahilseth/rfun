@@ -19,7 +19,7 @@ export PATH=${PATH}:~/bin ## add to .bashrc
 ```
 
 
-## Using with a base package
+## Using a base package
 
 ```
 ## ------- load help for rnorm
@@ -39,7 +39,7 @@ rfun knitr::knit
 rfun knitr::knit -h
 ```
 
-### Let process Rmd file
+### Lets process a Rmd file
 ```
 ## get path to an example Rmd file. Assuming we have knitr installed.
 ## ------- save the filename in a BASH variable rmd
@@ -49,7 +49,7 @@ echo $rmd
 rfun knitr::knit input=$rmd
 ```
 
-## Note:
+#### Note:
 This was originally build for `flowr` and is the derivative of this file:
 [https://github.com/sahilseth/flowr/blob/master/inst/scripts/flowr](https://github.com/sahilseth/flowr/blob/master/inst/scripts/flowr)
 
