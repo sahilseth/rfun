@@ -64,7 +64,7 @@ flow_help <- function(){
 args <- commandArgs(trailingOnly = TRUE)
 
 ##-------- if default function is not in the space, load flowr library
-library(flowr, quietly=!verbose, warn.conflicts=verbose)
+#tmp <- require(flowr, quietly=!verbose, warn.conflicts=verbose)
 
 ## -------------- Load the required package
 if(grepl("::", args[1])){
