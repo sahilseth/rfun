@@ -18,9 +18,9 @@ export PATH=${PATH}:~/bin ## add to .bashrc
 ## Using with a base package
 
 ```
-## ------- load help for norm
+## ------- load help for rnorm
 rfun rnorm
-## ------- sample from norm
+## ------- sample from rnorm
 rfun rnorm n=100
 ```
 
@@ -29,7 +29,7 @@ rfun rnorm n=100
 ## Using a non-base package
 ### Let us get a example Rmd file
 ```
-## get the path to a example Rmd file. Assuming we have knitr installed.
+## get path to an example Rmd file. Assuming we have knitr installed.
 rfun system.file package=knitr ...=examples/knitr-minimal.Rmd
 ## ------- save the filename in a BASH variable rmd
 rmd=$(rfun system.file package=knitr ...=examples/knitr-minimal.Rmd)
@@ -40,6 +40,8 @@ echo $rmd
 ```
 ## load help file for knitr
 rfun knitr::knit
+## OR use
+rfun knitr::knit -h
 ## knit this awesome example !
 rfun knitr::knit input=$rmd
 ```
