@@ -1,6 +1,7 @@
 #!/usr/bin/env Rscript
 ## A class that contains bam file information
-## Copyright 2014, Sahil Seth, all rights reserved
+## Copyright 2014, Sahil Seth
+## licence: MIT
 ## sahil.seth@me.com
 ## A few functions to supplement those already in this package.
 ## URL: github.com/sahilseth/rfun
