@@ -1,4 +1,9 @@
-# rfun
+rfun
+----------------------
+
+> r-fun(ction): 
+> attempt to make a **fun** cli for R
+
 Simple Utility providing CLI access to all R functions
 
 
