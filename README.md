@@ -48,6 +48,12 @@ echo $rmd
 ## knit this awesome example !
 rfun knitr::knit input=$rmd
 ```
+### Features:
+- load help file to fetch arguments
+- Automatically load package before running using `::`
+- Fetch all named parameters of the function and supply shell arguments after converting to the correct type
+
+
 
 #### Note:
 This was originally build for `flowr` and is the derivative of this file:
