@@ -12,11 +12,6 @@
 verbose=FALSE
 nm = "rfun"
 
-##cat(".")
-### in myModul.R
-### numeric: _N
-### character: _C
-### logical: _L
 get_params <- function(paramPairs){
   func <- as.character(paramPairs[1])
   if(length(func) == 0) return(help())

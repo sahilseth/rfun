@@ -18,7 +18,6 @@ chmod u+x ~/bin/rfun
 export PATH=${PATH}:~/bin ## add to .bashrc
 ```
 
-
 ## Using a base package
 
 ```
@@ -60,3 +59,10 @@ This was originally build for `flowr` and is the derivative of this file:
 [https://github.com/sahilseth/flowr/blob/master/inst/scripts/flowr](https://github.com/sahilseth/flowr/blob/master/inst/scripts/flowr)
 
 I plan to keep these two in sync in case we find any bugs. In fact they are just alias on my systems.
+
+### Install method 2
+```
+## automatically placed in your bin, and updated when packages gets updated
+install.packages('devtools')
+devtools::install_github("sahilseth/flowr")
+```
