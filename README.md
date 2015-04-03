@@ -4,10 +4,9 @@ rfun
 > r-fun(ction): 
 > attempt to make a **fun** cli for R
 
-Simple Utility providing CLI access to all R functions
 
 
-`rfun` is a small utility which wraps Rscript and provides access to **all** R functions from CLI.
+A small utility which wraps Rscript and provides access to **all** R functions from CLI.
 
 
 ## install:
