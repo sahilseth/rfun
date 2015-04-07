@@ -61,7 +61,7 @@ generic_help <- function(){
     if(nm == "flowr"){
         flow_help()
     }else{
-        cat("\n##sample some numbers:\nrnorm x=100",
+        cat("\n##sample some numbers:\nrfun rnorm n=100",
             "\n##fetch files from pacakges:",
             "\nrmd=$(rfun system.file package=knitr ...=examples/knitr-minimal.Rmd)",
             "\necho $rmd",
