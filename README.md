@@ -18,6 +18,14 @@ chmod u+x ~/bin/rfun
 export PATH=${PATH}:~/bin ## add to .bashrc
 ```
 
+### install method 2
+```
+## automatically placed in your bin, and updated when packages gets updated
+install.packages('devtools')
+devtools::install_github("sahilseth/flowr")
+```
+
+
 ## Using a base package
 
 ```
@@ -60,9 +68,3 @@ This was originally built for `flowr` and is a derivative of this file:
 
 I plan to keep these two in sync in case we find any bugs. In fact they are just alias on my systems.
 
-### Install method 2
-```
-## automatically placed in your bin, and updated when packages gets updated
-install.packages('devtools')
-devtools::install_github("sahilseth/flowr")
-```
