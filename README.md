@@ -2,7 +2,7 @@ rfun
 ----------------------
 
 This utility will not be updated, and is superseded by the [funr](https://github.com/sahilseth/funr) R package. 
-You may use: `devtools::install("sahilseth/funr");library(funr);setup()` to get started and visit [funr's github page ](https://github.com/sahilseth/funr) for more details.
+You may use: `install.packages("funr");library(funr);setup()` to get started and visit [funr's github page ](https://github.com/sahilseth/funr) for more details.
 
 
 > r-fun(ction): 
